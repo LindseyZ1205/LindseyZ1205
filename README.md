@@ -1,16 +1,15 @@
 ## Hi there 👋
 
-<!--
-**LindseyZ1205/LindseyZ1205** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Yingzi Zhang, a passionate 💻 Master of Computer Science student at Northeastern University, focusing on building **scalable backend systems** and **cloud-native applications**.  
 
-Here are some ideas to get you started:
+- 🔭 I’m currently working as a **Software Engineer Intern** at **Terra Byte X**  
+- 🌱 I’m diving deep into **Distributed Systems**, **AWS**, and **Cloud Infrastructure**  
+- 👯 I’m looking to collaborate on **backend** and **full-stack** projects  
+- 🚀 Actively seeking a **Summer 2026 SDE Internship** (Backend / Full-stack)  
+- 📫 How to reach me:  
+   ✉️ Email: [yingzi.l.zhang@gmail.com](mailto:yingzi.l.zhang@gmail.com)  
+   📱 Phone: 571-275-2012 (Text or email preferred!)  
+- 😄 Pronouns: she/her  
+- ⚡ Fun fact: I’m part of the **5AM club** 🌅 — early bird mode activated!  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Thanks for stopping by! Feel free to connect or reach out 🤝
