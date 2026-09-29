@@ -62,8 +62,12 @@ This past summer at AWS I owned a feature end to end: publishing AI-generated da
 🌱 **Open Source**
 
 - **Spring Boot** — [fixed `PeriodStyle` throwing when formatting a zero period in weeks](https://github.com/spring-projects/spring-boot/pull/51892) (merged for 4.0.9)
+- **Temporal Python SDK** — [restored frozensets when decoding typed JSON payloads](https://github.com/temporalio/sdk-python/pull/1898) (merged)
 - In review:
-  - **Temporal Python SDK** — [restore frozensets when decoding typed JSON payloads](https://github.com/temporalio/sdk-python/pull/1898)
+  - **Testcontainers for Java** — [fix a deadline overflow in `WaitingConsumer.waitUntilEnd` for very large timeouts](https://github.com/testcontainers/testcontainers-java/pull/12093)
+  - **Micrometer** — [stop `HttpSender` from trimming HTTP Basic authentication passwords](https://github.com/micrometer-metrics/micrometer/pull/8015)
+  - **Eclipse Paho MQTT Python client** — [stop the `publish` and `subscribe` helpers from mutating the caller's TLS options](https://github.com/eclipse-paho/paho.mqtt.python/pull/959)
+  - **APScheduler** — [fix `IntervalTrigger` elapsed time across DST transitions](https://github.com/agronholm/apscheduler/pull/1145)
   - **LanceDB** — [preserve the Arrow schema when merging reranker scores](https://github.com/lancedb/lancedb/pull/4332)
   - **Haystack** — [sort `SentenceWindowRetriever` context before merging text](https://github.com/deepset-ai/haystack/pull/12976)
   - **LlamaIndex** — [stop copying `text_key` into node metadata on the Qdrant legacy path](https://github.com/run-llama/llama_index/pull/23265)
