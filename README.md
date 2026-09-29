@@ -52,6 +52,7 @@ This past summer at AWS I owned a feature end to end: publishing AI-generated da
 
 🚀 **Things I've Built**
 
+- **[video-processing-pipeline](https://github.com/LindseyZ1205/video-processing-pipeline)** — Spring Boot service that transcribes audio and video uploads asynchronously: presigned S3 uploads, S3 events over SQS, and an idempotent worker with DynamoDB leases, retries and a dead-letter queue. Integration tests run the whole flow against LocalStack in CI and check that an event delivered three times is transcribed exactly once
 - **[6.5840-distributed-systems](https://github.com/LindseyZ1205/6.5840-distributed-systems)** — Raft consensus in Go, a self-study implementation of MIT 6.5840 Lab 3: leader election, log replication, crash recovery and snapshots. Passes all 28 of the course's tests under the race detector in CI
 - **[job-search-scanner](https://github.com/LindseyZ1205/job-search-scanner)** — scheduled pipeline that pulls open roles from five public job-board APIs, deduplicates against prior runs, filters by eligibility, and renders one-page ATS-parseable resumes
 - **[careplan-project](https://github.com/LindseyZ1205/careplan-project)** — nursing care plan management system
