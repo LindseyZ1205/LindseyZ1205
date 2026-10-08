@@ -61,18 +61,29 @@ This past summer at AWS I owned a feature end to end: publishing AI-generated da
 
 🌱 **Open Source**
 
-- **Spring Boot** — [fixed `PeriodStyle` throwing when formatting a zero period in weeks](https://github.com/spring-projects/spring-boot/pull/51892) (merged for 4.0.9)
-- **Temporal Python SDK** — [restored frozensets when decoding typed JSON payloads](https://github.com/temporalio/sdk-python/pull/1898) (merged)
+- **Sentence Transformers** — [fixed `bfloat16` crashes in `encode(precision=...)` and `quantize_embeddings`](https://github.com/huggingface/sentence-transformers/pull/4089) (merged)
+- **Docling** — [stopped ODS conversion from hanging on sheets that LibreOffice pads with repeated empty cells](https://github.com/docling-project/docling/pull/4660) (merged)
+- **redis-py** — [fixed `XPENDING` filtering for empty consumer names](https://github.com/redis/redis-py/pull/4357) (merged)
+- **Dapr** — [forwarded informational responses without committing the final status](https://github.com/dapr/dapr/pull/10582) (merged)
+- **Docling** — [kept HTML comments out of table cell text](https://github.com/docling-project/docling/pull/4624) (merged for 2.135.0)
+- **Haystack** — [sorted `SentenceWindowRetriever` context before merging text](https://github.com/deepset-ai/haystack/pull/12976) (merged)
+- **Docling** — [kept `dt`/`dd` groups wrapped in `div` elements in HTML description lists](https://github.com/docling-project/docling/pull/4390) (merged for 2.133.0)
+- **go-redis** — [kept the milliseconds of `SetArgs.ExpireAt` by sending `PXAT`](https://github.com/redis/go-redis/pull/4053) (merged for 9.23.0)
+- **Spring Boot** — [fixed `PeriodStyle` throwing when formatting a zero period in weeks](https://github.com/spring-projects/spring-boot/pull/51892) (merged)
+- **Temporal Python SDK** — [restored frozensets when decoding typed JSON payloads](https://github.com/temporalio/sdk-python/pull/1898) (merged for 1.34.0)
 - In review:
+  - **redis-py** — [decode consumer keys in `XINFO STREAM FULL` responses on RESP3](https://github.com/redis/redis-py/pull/4401)
+  - **Haystack** — [read Word content controls in `DOCXToDocument`](https://github.com/deepset-ai/haystack/pull/13164)
+  - **Kombu** — [ignore MIME parameters in `content_type` when deserializing](https://github.com/celery/kombu/pull/2701)
+  - **nats.py** — [raise `KeyWrongLastSequenceError` from KV `delete` with a stale `last`](https://github.com/nats-io/nats.py/pull/1040)
+  - **Spring for Apache Kafka** — [stop retry topic back-offs at `BackOff.STOP`](https://github.com/spring-projects/spring-kafka/pull/4736)
   - **Testcontainers for Java** — [fix a deadline overflow in `WaitingConsumer.waitUntilEnd` for very large timeouts](https://github.com/testcontainers/testcontainers-java/pull/12093)
   - **Micrometer** — [stop `HttpSender` from trimming HTTP Basic authentication passwords](https://github.com/micrometer-metrics/micrometer/pull/8015)
   - **Eclipse Paho MQTT Python client** — [stop the `publish` and `subscribe` helpers from mutating the caller's TLS options](https://github.com/eclipse-paho/paho.mqtt.python/pull/959)
   - **APScheduler** — [fix `IntervalTrigger` elapsed time across DST transitions](https://github.com/agronholm/apscheduler/pull/1145)
+  - **async-lru** — [fix a race condition when cache entries are replaced](https://github.com/aio-libs/async-lru/pull/797)
   - **LanceDB** — [preserve the Arrow schema when merging reranker scores](https://github.com/lancedb/lancedb/pull/4332)
-  - **Haystack** — [sort `SentenceWindowRetriever` context before merging text](https://github.com/deepset-ai/haystack/pull/12976)
   - **LlamaIndex** — [stop copying `text_key` into node metadata on the Qdrant legacy path](https://github.com/run-llama/llama_index/pull/23265)
-  - **Sentence Transformers** — [fix `bfloat16` crashes in `encode(precision=...)` and `quantize_embeddings`](https://github.com/huggingface/sentence-transformers/pull/4089)
-  - **Docling** — [keep `dt`/`dd` groups wrapped in `div` elements in HTML description lists](https://github.com/docling-project/docling/pull/4390)
 
 ---
 
